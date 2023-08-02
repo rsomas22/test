@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+font-family: 'Ubuntu', sans-serif;
+padding: 0;
+margin: 0;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, rgb(45, 40, 65) ,rgb(6, 6, 19));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: linear-gradient(to right ,rgba(0, 0, 0, 0.288)35% ,rgba(0, 0, 255, 0.404)) ,url(img.jpg);
+    width: 90%;
+    height: 650px;
+}
+
+.container:hover{
+    background-image: linear-gradient(to right ,rgba(0, 0, 0, 0.288)35% ,transparent) ,url(img.jpg);
+
+}
+header{
+    padding: 20px;
+    background: rgba(0, 0, 255, 0.24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    }
+    ul{
+        width: 70%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    ul a{
+        border-bottom: 2px solid 
+        transparent
+    }
+    ul a:hover{
+        
+        border-bottom-color: aliceblue;
+    }
+    .Home{
+        position: relative;
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        padding: 50px 60px 0;
+
+     }
+     .Home .content{
+        max-width: 500px;
+        color: aliceblue;
+     }
+     .content h2{
+        font-size: 3em;
+        letter-spacing: .03em;
+     }
+     .content p{
+        margin: 30px 10px;
+     }
+     .content a{
+        color: aliceblue;
+        text-decoration: none;
+        border: 2px solid white;
+        font-weight: 500;
+        padding: 10px 40px;
+        border-radius: 40px;
+        transition: 0s;
+    }
+    .content a:hover{
+        background: white;
+        transition: 5s;
+        color: black;
+    }
+    .Home .wrapper-login{
+        position: relative;
+        width: 550px;
+        height: 650;
+        
+    }
+    .wrapper-login h2{
+        font-size: 2em;
+        color: aliceblue;
+        text-align: center;
+    }
+    .wrapper-login .input-box{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 20px 5%;
+        align-items: center;
+
+    }
+    .input-box input{
+        width: 80%;
+        height: 60%;
+        background: white;
+        border: 1px solid white;
+        outline: none;
+        border-radius: 50px;
+    }
+    .input-box input:hover{
+        background-color: aliceblue;
+    }
+    .input-box label {
+        position: absolute;
+        top: 36%;
+        left: 80px;
+        transform: translateY(-80%);
+        font-size: 1em;
+        color: aliceblue;
+        pointer-events: none;
+    }
+    .wrapper-login .remember-forget{
+        font-size: 1em;
+        color: aliceblue;
+        font-weight: 500;
+        margin: 10px 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .remember-forget a {
+        color: white;
+        text-decoration: none;
+    }
+    .remember-forget a:hover{
+        text-decoration: underline;
+    }
+    .wrapper-login .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: linear-gradient(90deg ,#49597e ,#5e5856);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.13) ;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .wrapper-login .register-link {
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: 10px 0;
+
+    }
+    .register-link p a {
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 600;
+
+    }
+    .register-link p a:hover {
+        text-decoration: underline;
+    }
